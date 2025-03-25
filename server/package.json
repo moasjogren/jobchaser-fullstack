@@ -14,7 +14,7 @@
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
     "build": "tsc",
-    "postinstall": "prisma generate"
+    "postinstall": "npm run build && prisma generate"
   },
   "keywords": [],
   "author": "",
