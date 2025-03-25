@@ -19,5 +19,6 @@ app.use("/", (req, res) => {
   res.send("WELCOME");
 });
 
-const PORT = process.env.PORT;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const PORT = process.env.PORT || "4000";
+
+app.listen(process.env.PORT, () => console.log(`Server running on ${PORT}`));
