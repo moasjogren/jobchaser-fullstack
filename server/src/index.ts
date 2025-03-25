@@ -3,7 +3,6 @@ import cors from "cors";
 import dotenv from "dotenv";
 import userRoutes from "./routes/userRoutes";
 import jobRoutes from "./routes/jobRoutes";
-import { Request, Response } from "express";
 
 const app = express();
 
