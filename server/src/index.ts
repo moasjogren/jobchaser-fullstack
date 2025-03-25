@@ -17,7 +17,7 @@ app.use("/users", userRoutes);
 app.use("/jobs", jobRoutes);
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Railway funkar");
+  res.send("Railway funkar kanske?");
 });
 
 const PORT = process.env.PORT || 3000;
