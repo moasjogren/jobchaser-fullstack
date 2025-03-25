@@ -1,0 +1,31 @@
+:root {
+  --background: #faf9f6;
+
+  --font: #272626;
+
+  --font-rev: #faf9f6;
+
+  --job-background: #e8e8e8;
+
+  --border: #e7e7e7;
+
+  --accent: #2b508a;
+
+  --hover: #e2dfdf;
+}
+
+:root .dark {
+  --background: #272626;
+
+  --font: #faf9f6;
+
+  --font-rev: #272626;
+
+  --job-background: #424040;
+
+  --border: #e7e7e7;
+
+  --accent: #1e90ff;
+
+  --hover: #595656;
+}

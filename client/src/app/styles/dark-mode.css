@@ -1,0 +1,102 @@
+.dark {
+  background-color: var(--background-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+}
+
+.dark .header {
+  color: var(--font-dark);
+  border-bottom: 1px solid var(--font-dark);
+}
+
+.dark .header-logo {
+  color: var(--accent-dark);
+}
+
+.dark .header-logo > span {
+  color: var(--font-light);
+  background-color: var(--accent-dark);
+}
+
+.dark .nav-button {
+  color: var(--accent-dark);
+}
+
+.dark .theme-toggle {
+  color: var(--accent-dark);
+}
+
+.dark .searchbar > input {
+  color: var(--font-dark);
+  background-color: var(--background-dark);
+  border: 1px solid var(--font-dark);
+  border-radius: 5px;
+}
+
+.dark .searchbar > input::placeholder {
+  color: var(--font-dark);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.dark .category-buttons > button {
+  color: var(--font-dark);
+  border: 1px solid var(--font-dark);
+}
+
+.dark .category-buttons > button.active {
+  color: var(--font-light);
+  background-color: var(--font-dark);
+}
+
+.dark .home {
+  width: 100vw;
+}
+
+.dark .home-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 90vh;
+  background-image: url("/Coding-Dark.svg");
+  background-size: 40% auto;
+  background-position: right center;
+  background-repeat: no-repeat;
+  color: var(--font-dark);
+}
+
+.dark .job {
+  background-color: var(--job-background-dark);
+  color: var(--font-dark);
+}
+
+.dark .company {
+  color: var(--accent-dark);
+}
+
+.dark .results {
+  color: var(--font-dark);
+  font-weight: 600;
+}
+
+.dark .forms {
+  color: var(--font-dark);
+}
+
+.dark .forms > input {
+  border: 1px solid var(--font-dark);
+  background-color: var(--background-dark);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.dark footer {
+  border-top: 1px solid var(--font-dark);
+  color: var(--font-dark);
+  width: 100vw;
+}
+
+.dark .submit-button {
+  color: var(--font-dark);
+}

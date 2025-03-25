@@ -1,0 +1,145 @@
+.jobs-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 60%;
+}
+
+.searchbar {
+  margin-bottom: 20px;
+  margin-top: 40px;
+  display: flex;
+  height: 30px;
+  width: 100%;
+  justify-content: center;
+}
+
+.searchbar > input {
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+  font-family: "Open Sans";
+  color: var(--font);
+  border: 1px solid var(--font-light);
+  border-radius: 5px;
+  background-color: var(--background);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.searchbar > input::placeholder {
+  color: var(--font-light);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.searchbar > input:focus {
+  outline: none;
+}
+
+.category-buttons {
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-buttons > button {
+  width: 90px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--font);
+  border: 1px solid var(--font);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.category-buttons > button.active {
+  background-color: var(--job-background);
+}
+
+.results {
+  color: var(--font);
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.job-list {
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.no-avail {
+  color: var(--font);
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.job {
+  padding: 10px;
+  width: 100%;
+  font-family: "Open Sans";
+  font-size: 10px;
+  color: var(--font);
+  border: 1px solid var(--font);
+  border-radius: 5px;
+  background-color: var(--job-background);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.job:hover {
+  background-color: var(--hover);
+}
+
+.job-top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.job-top-text {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.save-job-button {
+  margin-left: auto;
+  padding-right: 15px;
+  color: var(--accent);
+}
+
+.company {
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.job-subtext {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.job-bottom {
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+  .jobs-page {
+    width: 90%;
+  }
+}
